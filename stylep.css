@@ -1,0 +1,270 @@
+.img1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s;
+
+}
+
+.table1 {
+  font-family: fantasy;
+  background-color: rgb(253, 253, 253);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0%;
+  z-index: 1;
+}
+
+button {
+  --green: #9b0101;
+  font-size: 15px;
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: relative;
+  font-family: inherit;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(to right,rgba(253, 27, 27, 0.1)  1%, transparent 40%, transparent 60%, rgba(253, 27, 27, 0.1) 100%);
+  color: var(--green);
+  box-shadow: inset 0 0 10px #9b0101 rgba(250, 3, 3, 0.5);
+}
+
+button:hover {
+  color: #a51313;
+  box-shadow: inset 0 0 10px rgba(253, 27, 27, 0.6), 0 0 9px 3px rgba(253, 27, 27, 0.2);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform .4s ease-in-out;
+  background: linear-gradient(to right, transparent 1%, rgba(253, 27, 27, 0.1) 40%, rgba(253, 27, 27, 0.1) 60%, transparent 100%);
+}
+
+button:hover:before {
+  transform: translateX(15em);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height:100%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+h1 {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(-70%, -30%);
+  color: white;
+  opacity: 20;
+  transition: opacity 0.5s;
+  font-size: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  position: absolute;
+  top: 80%;
+  left: 84%;
+  transform: translate(-80%, -30%);
+  color: white;
+  opacity: 20;
+  transition: opacity 0.5s;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  width: 53%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction:column;
+  min-height: 100vh;
+}
+
+h1 {
+  position: absolute;
+  top: 72%;
+  left: 30%;
+  transform: translate(-70%, -30%);
+  color: rgba(255, 255, 255, 0.753);
+  opacity: 20;
+  transition: opacity 0.5s;
+  font-size: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(to right, transparent 1%, rgba(170, 10, 10, 0.445) 40%, rgba(253, 27, 27, 0.1) 60%, transparent 100%);
+
+}
+
+p {
+  position: absolute;
+  top: 75%;
+  left: 84%;
+  transform: translate(-80%, -30%);
+  color: white;
+  opacity: 20;
+  transition: opacity 0.5s;
+  font-size: 20px;
+  font-family: Didot;
+  text-align: justify;
+  width: 53%;
+}
+
+#video {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 40px;
+  
+  
+}
+
+
+.h12 {
+  position: absolute;
+  top: 130%;
+  left: 80%;
+  color: rgba(255, 255, 255, 0.753);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.p2 {
+  position: absolute;
+  top: 154%;
+  left: 85%;
+  color: white;
+  font-family: Didot;
+  text-align: justify;
+  width: 43%;
+
+}
+
+.td1 {
+  background: linear-gradient(to right, transparent 1%, rgb(255, 255, 255) 40%, rgba(253, 253, 253, 0.904) 60%, transparent 100%);
+}
+
+.timeline {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 40%;
+
+}
+
+.timeline ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.timeline .date {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.timeline .event {
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.image5 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.image5:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+
+.title4 {
+  position: relative;
+  left: 1%;
+  font-size:70px;
+  font-family: didot;
+  color: rgba(255, 255, 255, 0.753);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, transparent 1%, rgba(170, 10, 10, 0.445) 40%, rgba(253, 27, 27, 0.1) 60%, transparent 100%);
+
+}
+
+footer {
+  background-color: rgba(252, 251, 251, 0.726);
+  padding: 20px;
+  text-align: center;
+  position:relative;
+ top: 410%;
+ bottom:0%;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 25px;
+}
+
+.p4 {
+  color:black;
+}
+
+
+.table2 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+section {
+  padding: 10px;
+			margin-bottom: 150px;
+			flex-basis: 48%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.link-color {
+  color:#9b0101;
+  text-decoration: none;
+}
+
+.link-color2 {
+color:#9b0101
+}
+

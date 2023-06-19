@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylep2.css">
+    <table class="table1" width="100%" height="10%">
+        <tr>
+            <td width="200px" class="td1"><img src="logoporsche.svg"></td>
+
+            <td align="center" width="40%"><button id="911">The New 911 GT3 R</button></td>
+
+
+            <td align="center"><button id="GT3"> Inovation</button></td>
+
+
+            <td align="center"><button id="ContactUs"> Contact Us </button></td>
+
+        </tr>
+    </table>
+    <script>document.getElementById("911").addEventListener("click", function () { window.location.href = "indexporsche.html"; }); </script>
+    <script>document.getElementById("GT3").addEventListener("click", function () { window.location.href = "indexporsche.html"; }); </script>
+</head>
+
+<body>
+    
+    <br> <br> <br> <br> <br> <br> 
+    <p>Suas questões e comentários são importantes para a Porsche Brasil. Por favor utilize o formulário abaixo para nos enviar um e-mail. Quanto mais informações compartilhar conosco, melhor e mais rápido será o seu atendimento.</p> 
+    <div class="container">
+        <h1>Formulário de Contato</h1>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <div class="contact-info">
+            <h2>Informações de Contato</h2>
+            <p>Endereço: Aeroporto internacional Juscelino Kubitschek, DF 047, Lote 04
+                Lago Sul, Brasília - DF
+                CEP 71608-900</p>
+            <p>Telefone: (61) 3222-8050</p>
+        </div>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7675.45185536656!2d-47.94407172228998!3d-15.870995699999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a303061b9801f%3A0x9b81cc0b9c0f01bd!2sEurobike%20Porsche%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1687213147726!5m2!1spt-BR!2sbr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+</body>
+
+</html>
